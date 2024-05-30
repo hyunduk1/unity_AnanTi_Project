@@ -1,0 +1,679 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1686453681050659, "dur": 18602783, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686453681050883, "dur": 2615, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686453681053501, "dur": 32923, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686453681086432, "dur": 664115, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686453681750551, "dur": 17901173, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686453699651727, "dur": 1713, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686453699685364, "dur": 27, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1686453681424842, "dur": 301648, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686453681425704, "dur": 39141, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686453681713235, "dur": 3875, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686453681717114, "dur": 9371, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686453681717770, "dur": 7963, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686453681730230, "dur": 1424, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686453681729507, "dur": 2175, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686453699685600, "dur": 352, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1686453681794206, "dur":1063, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453681795279, "dur":87, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1686453681795399, "dur":23, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1686453681795422, "dur":413, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1686453681795868, "dur":422, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453681796290, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453699615741, "dur":185, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453699615926, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453699615938, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453699615947, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453699615953, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453699615955, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453699615958, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453699615959, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453699615962, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453699615963, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453699615967, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453699615968, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453699615971, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453699615971, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453699615974, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453699615975, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453699615978, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453699615979, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453699615984, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453699615985, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453699615989, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453699615991, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453699615996, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453699615997, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453699616002, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453699616027, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453699616061, "dur":15626, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1686453681796053, "dur":242, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686453681796296, "dur":3005, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686453681799308, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686453681799310, "dur":416, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686453681799731, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686453681799737, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686453681808997, "dur":1336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686453681810336, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1686453681810484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686453681810507, "dur":4440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1686453681815015, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1686453681815140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686453681815293, "dur":21673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1686453681837033, "dur":32268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453681869307, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686453681869384, "dur":3292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453681872694, "dur":24895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453681897595, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686453681897605, "dur":3061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453681900682, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453681900852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686453681900858, "dur":2102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453681902975, "dur":33229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453681936209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686453681936215, "dur":3694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453681939923, "dur":21221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453681961147, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686453681961153, "dur":2957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453681964126, "dur":45139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453682009268, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686453682009275, "dur":2539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453682011828, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453682011964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686453682011969, "dur":1655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453682013638, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453682013853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686453682013859, "dur":2855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453682016729, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453682016878, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686453682016884, "dur":2457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453682019357, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453682019544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686453682019549, "dur":1912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453682021474, "dur":514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453682021991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686453682021995, "dur":3448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453682025458, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453682025645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686453682025650, "dur":5199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453682030871, "dur":40354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453682071230, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686453682071238, "dur":6286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453682077539, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453682077822, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686453682077829, "dur":2891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453682080733, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453682080867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686453682080872, "dur":1888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453682082801, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453682083047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686453682083053, "dur":2481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453682085549, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453682085838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686453682085844, "dur":9634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453682095494, "dur":3331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453682098831, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686453682098839, "dur":5660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453682104511, "dur":3129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453682107643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686453682107647, "dur":21643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686453682129302, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/Tangram_Resources/A2_MT-3-1.mp4" }}
+,{ "pid":12345, "tid":1, "ts":1686453682129335, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686453682129340, "dur":143055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/Tangram_Resources/A2_MT-3-1.mp4" }}
+,{ "pid":12345, "tid":1, "ts":1686453682272408, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/ProRes4444/A2_MT-3-3-1.mov" }}
+,{ "pid":12345, "tid":1, "ts":1686453682272447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686453682300710, "dur":16874829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/ProRes4444/A2_MT-3-3-1.mov" }}
+,{ "pid":12345, "tid":1, "ts":1686453699175550, "dur":440202, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686453681796056, "dur":242, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686453681796298, "dur":3043, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686453681799342, "dur":447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1686453681799791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686453681822053, "dur":1597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1686453681823724, "dur":28100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686453681851830, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686453681851838, "dur":4416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686453681856269, "dur":29269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686453681885542, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686453681885549, "dur":4524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686453681890092, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686453681890395, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686453681890399, "dur":1939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686453681892349, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686453681892560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686453681892566, "dur":23608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686453681916192, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686453681916472, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686453681916480, "dur":3790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686453681920284, "dur":35196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686453681955486, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686453681955655, "dur":9966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686453681965636, "dur":58663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686453682024307, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686453682024317, "dur":5558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686453682029951, "dur":77683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686453682107637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686453682107641, "dur":3591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686453682111244, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686453682111434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686453682111439, "dur":4436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686453682116109, "dur":14141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Plugins/x86_64/Audio360.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686453682130253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686453682130258, "dur":9190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Plugins/x86_64/Audio360.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686453682139463, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/Tangram_Resources/A2_MT-3-0.mp4" }}
+,{ "pid":12345, "tid":2, "ts":1686453682139501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686453682139507, "dur":171998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/Tangram_Resources/A2_MT-3-0.mp4" }}
+,{ "pid":12345, "tid":2, "ts":1686453682311524, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/ProRes4444/A2_MT-1-Idle.mov" }}
+,{ "pid":12345, "tid":2, "ts":1686453682311542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686453682311550, "dur":2127445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/ProRes4444/A2_MT-1-Idle.mov" }}
+,{ "pid":12345, "tid":2, "ts":1686453684439014, "dur":15176722, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686453681796074, "dur":228, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686453681796302, "dur":3022, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686453681799324, "dur":440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1686453681799777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686453681809611, "dur":9528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1686453681819223, "dur":30902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686453681850130, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686453681850139, "dur":2484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686453681852638, "dur":23011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686453681875655, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686453681875663, "dur":10369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686453681886048, "dur":33365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686453681919418, "dur":1416, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686453681920842, "dur":13672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686453681934528, "dur":539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686453681935070, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686453681935077, "dur":3194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686453681938287, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686453681938536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686453681938541, "dur":7298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686453681945854, "dur":433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686453681946290, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686453681946297, "dur":6190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686453681952500, "dur":154916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686453682107420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686453682107425, "dur":4904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686453682112341, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686453682112674, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686453682112988, "dur":1618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686453682114617, "dur":4200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Plugins/x86_64/AVProVideo.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686453682118820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686453682118826, "dur":7456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Plugins/x86_64/AVProVideo.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686453682126343, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/Tangram_Resources/A2_MT-3-4.mp4" }}
+,{ "pid":12345, "tid":3, "ts":1686453682126376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686453682126383, "dur":146491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/Tangram_Resources/A2_MT-3-4.mp4" }}
+,{ "pid":12345, "tid":3, "ts":1686453682272886, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/ProRes4444/A2_MT-3-2-1.mov" }}
+,{ "pid":12345, "tid":3, "ts":1686453682272900, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686453682301684, "dur":16785402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/ProRes4444/A2_MT-3-2-1.mov" }}
+,{ "pid":12345, "tid":3, "ts":1686453699087099, "dur":528645, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686453681796095, "dur":212, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686453681796307, "dur":2997, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686453681799309, "dur":392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1686453681799707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686453681808481, "dur":1824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1686453681810392, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1686453681810537, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686453681810542, "dur":2629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1686453681813239, "dur":548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player.exe" }}
+,{ "pid":12345, "tid":4, "ts":1686453681813791, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686453681813796, "dur":3305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player.exe" }}
+,{ "pid":12345, "tid":4, "ts":1686453681817118, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453681817329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686453681817442, "dur":4142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453681821603, "dur":49658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453681871265, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686453681871272, "dur":3423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453681874709, "dur":52098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453681926810, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686453681926860, "dur":7270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453681934145, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453681934374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686453681934381, "dur":2080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453681936484, "dur":24587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453681961076, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686453681961085, "dur":4061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453681965162, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453681965338, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686453681965345, "dur":2629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453681967987, "dur":28798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453681997701, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686453681997713, "dur":2653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453682000383, "dur":77535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453682077924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686453682077929, "dur":1693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453682079637, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453682079973, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686453682079979, "dur":3764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453682083760, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453682083970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686453682083975, "dur":2055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453682086043, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453682086272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686453682086277, "dur":1762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453682088056, "dur":423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453682088482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686453682088489, "dur":3429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453682091933, "dur":1571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453682093507, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686453682093515, "dur":9534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453682103061, "dur":859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453682103924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686453682103930, "dur":7168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453682111118, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453682111442, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686453682111450, "dur":2479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453682114013, "dur":1010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Plugins/x86_64/swresample-3.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453682115025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686453682115089, "dur":2888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Plugins/x86_64/swresample-3.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453682117993, "dur":5366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Plugins/x86_64/AudioPluginDemolitionMedia.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453682123425, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686453682123432, "dur":2889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Plugins/x86_64/AudioPluginDemolitionMedia.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686453682126335, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/Tangram_Resources/A2_MT-3-5.mp4" }}
+,{ "pid":12345, "tid":4, "ts":1686453682126380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686453682126385, "dur":80466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/Tangram_Resources/A2_MT-3-5.mp4" }}
+,{ "pid":12345, "tid":4, "ts":1686453682206868, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/ProRes4444/A2_MT-3-4-2.mov" }}
+,{ "pid":12345, "tid":4, "ts":1686453682206882, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686453682231170, "dur":2436810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/ProRes4444/A2_MT-3-4-2.mov" }}
+,{ "pid":12345, "tid":4, "ts":1686453684667998, "dur":14947743, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686453681796112, "dur":198, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686453681796310, "dur":2999, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686453681799310, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1686453681799609, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686453681801829, "dur":4848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1686453681806790, "dur":12125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1686453681818920, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686453681818929, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1686453681819979, "dur":50269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686453681870252, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686453681870258, "dur":7636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686453681877909, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686453681878267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686453681878272, "dur":1787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686453681880074, "dur":913, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686453681880990, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686453681880996, "dur":12775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686453681893786, "dur":32701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686453681926490, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686453681926496, "dur":17799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686453681944327, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686453681944563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686453681944570, "dur":2959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686453681947545, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686453681947717, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686453681947723, "dur":2332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686453681950070, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686453681950317, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686453681950324, "dur":2207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686453681952602, "dur":26619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686453681979224, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686453681979230, "dur":8715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686453681987961, "dur":119263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686453682107227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686453682107232, "dur":2506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686453682109758, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/LitJson.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686453682109986, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686453682109994, "dur":3399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/LitJson.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686453682113404, "dur":1990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Plugins/x86_64/avutil-56.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686453682115397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686453682115402, "dur":3170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Plugins/x86_64/avutil-56.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686453682118586, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Plugins/x86_64/enet.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686453682118854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686453682118859, "dur":2511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Plugins/x86_64/enet.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686453682121384, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1686453682121572, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686453682121705, "dur":774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1686453682122490, "dur":692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/Tangram_Resources/A2_MT-3-7.mp4" }}
+,{ "pid":12345, "tid":5, "ts":1686453682123185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686453682123331, "dur":87541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/Tangram_Resources/A2_MT-3-7.mp4" }}
+,{ "pid":12345, "tid":5, "ts":1686453682210891, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/ProRes4444/A2_MT-3-4-1.mov" }}
+,{ "pid":12345, "tid":5, "ts":1686453682210907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686453682231170, "dur":16651504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/ProRes4444/A2_MT-3-4-1.mov" }}
+,{ "pid":12345, "tid":5, "ts":1686453698882685, "dur":733063, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686453681796145, "dur":168, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686453681796313, "dur":2989, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686453681799309, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1686453681799648, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686453681808488, "dur":2235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1686453681810803, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1686453681810923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686453681810927, "dur":4786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1686453681815786, "dur":29244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1686453681845033, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686453681845193, "dur":1059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1686453681846307, "dur":25075, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686453681871386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686453681871391, "dur":1902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686453681873306, "dur":88048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686453681961357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686453681961362, "dur":6347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686453681967725, "dur":963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686453681968693, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686453681968700, "dur":24421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686453681993140, "dur":53557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686453682046701, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686453682046708, "dur":15617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686453682062339, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686453682062566, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686453682062572, "dur":5070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686453682067658, "dur":2121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686453682069784, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686453682069792, "dur":14151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686453682083954, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686453682084099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686453682084106, "dur":9015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686453682093636, "dur":6016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686453682099655, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686453682099660, "dur":2008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686453682101683, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686453682101988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686453682101995, "dur":2146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686453682104154, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686453682104390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686453682104395, "dur":11042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686453682115454, "dur":2384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Plugins/x86_64/swscale-5.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686453682117842, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686453682117849, "dur":5083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Plugins/x86_64/swscale-5.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686453682122945, "dur":783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/Tangram_Resources/A2_MT-3-6.mp4" }}
+,{ "pid":12345, "tid":6, "ts":1686453682123731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686453682123757, "dur":148696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/Tangram_Resources/A2_MT-3-6.mp4" }}
+,{ "pid":12345, "tid":6, "ts":1686453682272477, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/ProRes4444/A2_MT-3-2-2.mov" }}
+,{ "pid":12345, "tid":6, "ts":1686453682272494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686453682300500, "dur":3248172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/ProRes4444/A2_MT-3-2-2.mov" }}
+,{ "pid":12345, "tid":6, "ts":1686453685548683, "dur":14067054, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686453681796165, "dur":152, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686453681796317, "dur":2989, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686453681799308, "dur":11907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1686453681811218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686453681811223, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1686453681812670, "dur":209091, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686453682021764, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686453682021769, "dur":134996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686453682156856, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/Tangram_Resources/A2_MT-2-Tutorial.mp4" }}
+,{ "pid":12345, "tid":7, "ts":1686453682156874, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686453682156879, "dur":142113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/Tangram_Resources/A2_MT-2-Tutorial.mp4" }}
+,{ "pid":12345, "tid":7, "ts":1686453682299008, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/ProRes4444/A2_MT-2-Tutorial.mov" }}
+,{ "pid":12345, "tid":7, "ts":1686453682299023, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686453682300518, "dur":4484516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/ProRes4444/A2_MT-2-Tutorial.mov" }}
+,{ "pid":12345, "tid":7, "ts":1686453686785047, "dur":12830685, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686453681796183, "dur":138, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686453681796321, "dur":2987, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686453681799309, "dur":15727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1686453681815039, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686453681815046, "dur":4963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1686453681820072, "dur":41044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453681861121, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686453681861128, "dur":4098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453681865239, "dur":64316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453681929560, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686453681929568, "dur":8877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453681938461, "dur":47694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453681986160, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686453681986168, "dur":2483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453681988665, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453681988894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686453681988900, "dur":17818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453682006734, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453682007126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686453682007133, "dur":7845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453682014994, "dur":20416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453682035416, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686453682035424, "dur":2311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453682037751, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453682037943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686453682037949, "dur":2584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453682040546, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453682040808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686453682040814, "dur":1816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453682042645, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453682042780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686453682042786, "dur":1957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453682044760, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453682044936, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686453682044944, "dur":1883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453682046840, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453682047105, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686453682047109, "dur":14513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453682061636, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Tayx.Graphy.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453682061827, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686453682061833, "dur":14870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Tayx.Graphy.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453682076718, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453682076952, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686453682076959, "dur":2751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453682079725, "dur":693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453682080420, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686453682080426, "dur":9982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453682090423, "dur":1800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453682092226, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686453682092233, "dur":37045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686453682129292, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/Tangram_Resources/A2_MT-3-2.mp4" }}
+,{ "pid":12345, "tid":8, "ts":1686453682129310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686453682129316, "dur":145087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/Tangram_Resources/A2_MT-3-2.mp4" }}
+,{ "pid":12345, "tid":8, "ts":1686453682274421, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/ProRes4444/A2_MT-3-1-2.mov" }}
+,{ "pid":12345, "tid":8, "ts":1686453682274440, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686453682301683, "dur":4214111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/ProRes4444/A2_MT-3-1-2.mov" }}
+,{ "pid":12345, "tid":8, "ts":1686453686515815, "dur":13099919, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686453681796207, "dur":117, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686453681796324, "dur":2982, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686453681799309, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1686453681799649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686453681807963, "dur":4104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1686453681812178, "dur":48073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686453681860257, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686453681860324, "dur":56666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686453681917079, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686453681917402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686453681917407, "dur":3371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686453681920790, "dur":25604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686453681946398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686453681946403, "dur":4616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686453681951033, "dur":27573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686453681978645, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686453681978654, "dur":3119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686453681981788, "dur":535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686453681982331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686453681982338, "dur":2868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686453681985225, "dur":121940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686453682107168, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686453682107175, "dur":2569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686453682109770, "dur":598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Klak.Ndi.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686453682110371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686453682110376, "dur":3906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Klak.Ndi.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686453682114295, "dur":185510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Plugins/x86_64/avcodec-58.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686453682299808, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686453682299815, "dur":4355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Plugins/x86_64/avcodec-58.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686453682304183, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/ProRes4444/A2_MT-1-Idle_1.mov" }}
+,{ "pid":12345, "tid":9, "ts":1686453682304197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686453682304232, "dur":568847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/ProRes4444/A2_MT-1-Idle_1.mov" }}
+,{ "pid":12345, "tid":9, "ts":1686453682873108, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/Config.ini" }}
+,{ "pid":12345, "tid":9, "ts":1686453682873159, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686453682873171, "dur":1770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/Config.ini" }}
+,{ "pid":12345, "tid":9, "ts":1686453682874965, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1686453682874994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686453682875024, "dur":54983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1686453682930027, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1686453682930047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686453682930053, "dur":56458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1686453682986532, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1686453682986552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686453682986558, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1686453682987734, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1686453682988009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686453682988016, "dur":1165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1686453682989196, "dur":4915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1686453682994114, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686453682994119, "dur":55389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1686453683049520, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1686453683049530, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686453683049533, "dur":883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1686453683050428, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1686453683050442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686453683050445, "dur":739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1686453683051197, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1686453683051209, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686453683051212, "dur":542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1686453683051761, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1686453683051771, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686453683051773, "dur":56947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1686453683108740, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1686453683108763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686453683108770, "dur":1136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1686453683109919, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1686453683110086, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686453683110090, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1686453683110966, "dur":16504773, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686453681796218, "dur":109, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686453681796327, "dur":2980, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686453681799308, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1686453681799608, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686453681802018, "dur":4794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1686453681806951, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1686453681807257, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686453681807583, "dur":2558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1686453681810226, "dur":25150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1686453681835381, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686453681835390, "dur":9262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1686453681844722, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453681844966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686453681844989, "dur":2052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453681847055, "dur":24516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453681871574, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686453681871579, "dur":5132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453681876729, "dur":1068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453681877801, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686453681877808, "dur":5186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453681883012, "dur":469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453681883484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686453681883490, "dur":5450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453681888955, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453681889157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686453681889163, "dur":1555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453681890730, "dur":35300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453681926038, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686453681926049, "dur":12892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453681938953, "dur":30627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453681969584, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686453681969591, "dur":9848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453681979619, "dur":37264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453682016886, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686453682016892, "dur":1723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453682018627, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453682018745, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686453682018748, "dur":2577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453682021341, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453682021647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686453682021654, "dur":2877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453682024551, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453682024710, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686453682024716, "dur":2732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453682027466, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453682027826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686453682027833, "dur":4516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453682032365, "dur":67233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453682099602, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686453682099608, "dur":2065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453682101688, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453682101989, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686453682102022, "dur":4818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453682106854, "dur":1090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453682107947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686453682107952, "dur":5878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453682113841, "dur":17392873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Plugins/x86_64/Processing.NDI.Lib.x64.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453699506718, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686453699506724, "dur":108973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Plugins/x86_64/Processing.NDI.Lib.x64.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686453699615711, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":10, "ts":1686453699615712, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686453681796233, "dur":97, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686453681796330, "dur":2980, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686453681799310, "dur":11133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1686453681810446, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686453681810453, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1686453681811652, "dur":3721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686453681815376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686453681815761, "dur":4142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686453681819967, "dur":28876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686453681848849, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686453681848857, "dur":4107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686453681852979, "dur":27007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686453681879990, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686453681879997, "dur":18293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686453681898309, "dur":27950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686453681926274, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686453681926281, "dur":12965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686453681939259, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686453681939500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686453681939507, "dur":8489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686453681948029, "dur":31178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686453681979211, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686453681979216, "dur":10646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686453681989939, "dur":166622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686453682156567, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686453682156575, "dur":24541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686453682181132, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/Tangram_Resources/A2_MT-1-Idle.mp4" }}
+,{ "pid":12345, "tid":11, "ts":1686453682181148, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686453682181154, "dur":116316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/Tangram_Resources/A2_MT-1-Idle.mp4" }}
+,{ "pid":12345, "tid":11, "ts":1686453682297483, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/ProRes4444/A2_MT-3-1-1.mov" }}
+,{ "pid":12345, "tid":11, "ts":1686453682297493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686453682300519, "dur":16518733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/ProRes4444/A2_MT-3-1-1.mov" }}
+,{ "pid":12345, "tid":11, "ts":1686453698819263, "dur":796496, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686453681796251, "dur":82, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686453681796333, "dur":2970, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686453681799309, "dur":11592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1686453681810905, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686453681810912, "dur":1740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1686453681812769, "dur":13722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1686453681826495, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686453681826502, "dur":9235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1686453681835810, "dur":38798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686453681874613, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686453681874620, "dur":12659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686453681887294, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686453681887542, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686453681887549, "dur":1983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686453681889544, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686453681889797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686453681889801, "dur":2355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686453681892169, "dur":64181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686453681956354, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686453681956360, "dur":23368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686453681979743, "dur":23211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686453682002959, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686453682002968, "dur":2396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686453682005378, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686453682005694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686453682005699, "dur":2482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686453682008195, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686453682008320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686453682008325, "dur":2249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686453682010587, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686453682010735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686453682010741, "dur":1694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686453682012449, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686453682012575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686453682012579, "dur":2069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686453682014662, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686453682014820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686453682014825, "dur":3416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686453682018256, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686453682018520, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686453682018527, "dur":13827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686453682032373, "dur":80803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686453682113179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686453682113184, "dur":3314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686453682116513, "dur":7698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/Plugins/x86_64/avformat-58.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686453682124214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686453682124219, "dur":2347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/Plugins/x86_64/avformat-58.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686453682126580, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/Tangram_Resources/A2_MT-3-3.mp4" }}
+,{ "pid":12345, "tid":12, "ts":1686453682126604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686453682126609, "dur":145621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/Tangram_Resources/A2_MT-3-3.mp4" }}
+,{ "pid":12345, "tid":12, "ts":1686453682272254, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/ProRes4444/A2_MT-3-3-2.mov" }}
+,{ "pid":12345, "tid":12, "ts":1686453682272269, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686453682301483, "dur":4942028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build_TangGuid/AnanTi_Tangram_Player_Data/StreamingAssets/ProRes4444/A2_MT-3-3-2.mov" }}
+,{ "pid":12345, "tid":12, "ts":1686453687243524, "dur":12372232, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686453699633564, "dur":2621, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1686453699685997, "dur": 760, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686453699685336, "dur": 1447, "ph": "X", "name": "Write chrome-trace events", "args": {} },
